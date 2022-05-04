@@ -8,7 +8,7 @@ function Counter() {
             setData(data+1);
             
         }
-       // setData(data+1);
+      
         
     }
 
@@ -21,7 +21,7 @@ function Counter() {
 
   return (
     <div className="App">
-     <h1>hello welcome yo counter page</h1>
+     <h1>hello welcome to counter page</h1>
 
 <h1>count={data}</h1>
      <button onClick={handelAdd}>Add</button>
