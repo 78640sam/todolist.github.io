@@ -4,7 +4,7 @@ function Counter() {
     var [data,setData]=useState(0);
 
     var handelAdd= ()=>{
-        if(data<10){
+        if(data<20){
             setData(data+1);
             
         }
