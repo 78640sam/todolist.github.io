@@ -2,7 +2,7 @@
 function Counter() {
   return (
     <div className="App">
-     <h1>hello</h1>
+     <h1>hello wlcm yo counter page</h1>
     </div>
   );
 }
