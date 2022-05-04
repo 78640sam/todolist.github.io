@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 function Counter() {
     var [data,setData]=useState(0);
 
-    var adddata= ()=>{
+    var handelAdd= ()=>{
         setData(data+1);
         
     }
 
-    var subdata= ()=>{
+    var handelSub= ()=>{
         setData(data-1);
     }
 
@@ -16,8 +16,8 @@ function Counter() {
      <h1>hello welcome yo counter page</h1>
 
 <h1>count={data}</h1>
-     <button onClick={adddata}>Add</button>
-     <button onClick={subdata}>Sub</button>
+     <button onClick={handelAdd}>Add</button>
+     <button onClick={handelSub}>Sub</button>
 
      
     </div>
