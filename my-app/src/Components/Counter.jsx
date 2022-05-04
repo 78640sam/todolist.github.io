@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 function Counter() {
     var [data,setData]=useState(0);
 
-    var adddata= (data)=>{
+    var adddata= ()=>{
         setData(data+1);
         
     }
 
-    var subdata= (data)=>{
+    var subdata= ()=>{
         setData(data-1);
     }
 
