@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 function Counter() {
     var [data,setData]=useState(0);
 
@@ -8,7 +9,10 @@ function Counter() {
     }
 
     var handelSub= ()=>{
-        setData(data-1);
+        if(data>0){
+            setData(data-1);
+        }
+        
     }
 
   return (
