@@ -20,7 +20,7 @@ var [data1,setData1]=useState([])
         
         {
           data1.map((item)=>{
-         return   <li>{item.data}</li>
+           <li>{item.data1}</li>
           })
         }
       </ul>
