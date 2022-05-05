@@ -12,7 +12,7 @@ var [data1,setData1]=useState([])
       <h1>Welcome to todo list</h1>
       <form onSubmit={formSubmit}>
         <input type="text" placeholder="TodoItem" value={data} onInput={(e)=>{
-         setData(e.target.value) ;
+         setData(e.target.value);
         }}/>
         <button > Add Item</button>
       </form>
