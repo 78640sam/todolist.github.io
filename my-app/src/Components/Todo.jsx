@@ -10,7 +10,7 @@ var [data1,setData1]=useState([])
       <div className="App">
        <h1>hello</h1>
       {/* <h1>Welcome to todo list</h1> */}
-      <h1>Hello i am Sam</h1>
+      {/* <h1>Hello i am Sam</h1> */}
       <form onSubmit={formSubmit}>
         <input type="text" placeholder="TodoItem" value={data} onInput={(e)=>{
          setData(e.target.value);
