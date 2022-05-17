@@ -20,8 +20,8 @@ var [data1,setData1]=useState([])
       </form>
       <div>
         <h1>hii</h1>
-        <h5>my name is sj</h5>
-      </div>
+        {/* <h5>my name is sj</h5>
+      </div> */}
       <ul>
         
         {
