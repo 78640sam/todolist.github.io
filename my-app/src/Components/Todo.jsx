@@ -19,10 +19,7 @@ var [data1,setData1]=useState([])
         <button > Add Item</button>
       </form>
    
-      <div>
-        <h1>hii</h1>
-        <h5>my name is sj</h5>
-      </div>
+    
       <ul>
         
         {
