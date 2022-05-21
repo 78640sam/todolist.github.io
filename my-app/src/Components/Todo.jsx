@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function Todo() {
 var [data,setData]=useState("");
-var [data1,setData1]=useState([])
+var [data1,setData1]=useState([]);
   var formSubmit =()=>{
- setData1(data)
+ setData1(data);
   }
     return (
       <div className="App">
