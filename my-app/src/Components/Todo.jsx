@@ -9,7 +9,7 @@ var [data1,setData1]=useState([]);
     return (
       <div className="App">
        <h1>hii</h1>
-      <h1>Welcome to todo list</h1>
+      {/* <h1>Welcome to todo list</h1> */}
       <h1>Hello i am Sam</h1>
       <form onSubmit={formSubmit}>
         <input type="text" placeholder="TodoItem" value={data} onInput={(e)=>{
