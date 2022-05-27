@@ -28,6 +28,7 @@ var [data1,setData1]=useState([]);
           })
         }
       </ul>
+      <h1>Hello i am Sam</h1>
       </div>
     );
   }
